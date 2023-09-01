@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final Project - Afdhalul Fikry</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.27/dist/sweetalert2.min.css"
+    />
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar">
+      <div id="logo-wrapper">
+        <img src="user.jpg" alt="Logo / Foto" />
+        <h1>Afdhalul Fikry</h1>
+      </div>
+
+      <div class="navbar-nav">
+        <a href="#content-1">About</a>
+        <a href="#content-2">Experience</a>
+        <a href="#content-3">Education</a>
+        <a href="#content-4">Skills</a>
+        <a href="#content-5">Interest</a>
+        <a href="#content-6">Award</a>
+        <a href="#content-7">Contact</a>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <div class="outer-section-wrapper">
+      <section class="content-wrapper" id="content-1">
+        <h1>About</h1>
+
+        <h3>
+          We provide solution for
+          <span id="tulisanBerjalan"></span>
+        </h3>
+
+        <p>
+          Saya Afdhalul Fikry, Sarjana Sistem Komputer Universitas Putra
+          Indonesia “YPTK” Padang tahun 2022. Selama kuliah menguasai teori
+          Keilmuan Dasar Rekayasa Komputer, Jaringan Komputer, Teknik Komputer,
+          Microcontroller Programmer berbasis C, dan Mekatronik. Memiliki
+          pengalaman sebagai Staff Information Technology (IT) di PT. Nusantara
+          Salvage Engineering.
+        </p>
+      </section>
+      <section class="content-wrapper" id="content-2">
+        <h1>Experience</h1>
+        <p>
+          Web designer adalah orang yang bertanggung jawab untuk mendesain
+          tampilan sebuah website. Mereka bekerja sama dengan web developer
+          untuk membuat website yang mudah digunakan dan menarik bagi pengguna.
+          Web designer harus memiliki kemampuan dalam bidang desain grafis dan
+          arsitektur informasi. Mereka harus dapat membuat desain yang menarik
+          dan mudah dipahami oleh pengguna. Pekerjaan sebagai web designer
+          melibatkan banyak hal yang berbeda tergantung pada proyek spesifiknya.
+          Namun, semua pekerjaan di bidang ini bertujuan untuk membuat website
+          yang mudah digunakan dan menarik bagi pengguna.
+        </p>
+      </section>
+    </div>
+    <div class="outer-section-wrapper">
+      <section class="content-wrapper" id="content-3">
+        <h1>Education</h1>
+        <p>
+          Universitas Putra Indonesia “YPTK” Padang (2018-2022) S1 Sistem
+          Komputer
+        </p>
+      </section>
+      <section class="content-wrapper" id="content-4">
+        <h1>Skills</h1>
+        <p>
+          Sebagai Front-End Web Developer, saya bertanggung jawab untuk
+          mengembangkan dan merawat bagian depan dari sebuah situs web atau
+          aplikasi web. Saya menggunakan bahasa markup seperti HTML untuk
+          membuat halaman web yang ramah pengguna. Saya juga bertanggung jawab
+          untuk merawat dan meningkatkan situs web serta mengoptimalkan aplikasi
+          untuk kecepatan maksimum. Selain itu, saya juga merancang fitur
+          berbasis mobile dan bekerja sama dengan pengembang back-end dan
+          desainer web untuk meningkatkan kegunaan.
+        </p>
+      </section>
+    </div>
+    <div class="outer-section-wrapper">
+      <section class="content-wrapper" id="content-5">
+        <h1>Interest</h1>
+        <p>
+          Jaringan komputer adalah sekelompok komputer yang terhubung satu sama
+          lain untuk berbagi sumber daya dan informasi. Ada beberapa jenis
+          jaringan komputer, salah satunya adalah arsitektur klien-server. Dalam
+          tipe jaringan ini, simpul dapat berupa server atau klien. Simpul
+          server memberikan sumber daya seperti memori, tenaga pemrosesan, atau
+          data ke simpul klien. Simpul server juga dapat mengelola perilaku
+          simpul klien. Klien dapat saling berkomunikasi satu sama lain, tetapi
+          tidak dapat berbagi sumber daya.
+        </p>
+      </section>
+      <section class="content-wrapper" id="content-6">
+        <h1>Award</h1>
+        <p>
+          Membuat alat praktek lapangan dengan judul Perancangan dan pembuatan
+          sistem keamanan smart kitchen untuk mengantisipasi kebakaran berbasis
+          microcontroller dengan regu 3 orang tahun 2021
+        </p>
+      </section>
+    </div>
+
+    <!-- Contact Section Start -->
+    <section class="contact" id="content-7">
+      <div class="row">
+        <h2>Contact Me</h2>
+        <form action="">
+          <div class="input-group">
+            <input type="text" placeholder="nama" />
+          </div>
+          <div class="input-group">
+            <input type="text" placeholder="email" />
+          </div>
+          <div class="input-group">
+            <textarea
+              name="pesan"
+              id="pesan"
+              cols="30"
+              rows="10"
+              placeholder="Masukkan pesan"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn" onclick="openPopUp();">
+            kirim pesan
+          </button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <section id="footer">
+      &copy; Copyright 2023. Afdhalul FIkry. All Rights Reserved
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.27/dist/sweetalert2.all.min.js"></script>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
